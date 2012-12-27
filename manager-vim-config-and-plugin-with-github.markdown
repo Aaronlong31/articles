@@ -49,6 +49,6 @@
 
 然后执行
 
-   vim +BundleInstall
+    vim +BundleInstall
 
 这样vim-markdown插件就安装到~/.vim/bundle中了。
