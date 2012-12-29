@@ -82,3 +82,5 @@ plasticboy是用户名，如果插件用户名是vim-scripts，则可以省略�
 
             source $VIM\_vimrc
             source ~\vimfiles\vimrc
+
+我的vim配置：https://github.com/Aaronlong31/dotvim
