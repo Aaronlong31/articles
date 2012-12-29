@@ -75,12 +75,11 @@ plasticboy是用户名，如果插件用户名是vim-scripts，则可以省略�
     !bundle/vundle
 
 ## for windows
-在windows下， 
-    1. $HOME下的vim目录是vimfiles，所以以上的.vim都要换成vimfiles。
-    2. 安装vundle参考：https://github.com/gmarik/vundle/wiki/Vundle-for-Windows
-    2. vim读取用户自定义的vim配置文件是$HOME\.vimrc，但windows下不能创建链接，所以需要修改.vimrc加入以下内容：
+1. $HOME下的vim目录是vimfiles，所以以上的.vim都要换成vimfiles。
+2. 安装vundle参考：https://github.com/gmarik/vundle/wiki/Vundle-for-Windows
+3. vim读取用户自定义的vim配置文件是$HOME\.vimrc，但windows下不能创建链接，所以需要修改.vimrc加入以下内容：
 
-            source $VIM\_vimrc
-            source ~\vimfiles\vimrc
+        source $VIM\_vimrc
+        source ~\vimfiles\vimrc
 
 我的vim配置：https://github.com/Aaronlong31/dotvim
